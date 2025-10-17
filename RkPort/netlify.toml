@@ -1,7 +1,6 @@
 [build]
-  base = "RkPort"
   command = "npm run build"
-  publish = "RkPort/dist"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
