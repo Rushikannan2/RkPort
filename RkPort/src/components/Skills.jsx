@@ -28,8 +28,7 @@ const Skills = () => {
     { name: "English", level: 95, native: true },
     { name: "Tamil", level: 100, native: true },
     { name: "Hindi", level: 90, native: false },
-    { name: "Telugu", level: 85, native: false },
-    { name: "Japanese", level: 60, native: false }
+    { name: "Telugu", level: 85, native: false }
   ];
 
   const containerVariants = {
@@ -223,7 +222,7 @@ const Skills = () => {
                 <div className="text-lg opacity-90">Professional Skills</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">5</div>
+                <div className="text-3xl font-bold mb-2">4</div>
                 <div className="text-lg opacity-90">Languages</div>
               </div>
               <div className="text-center">

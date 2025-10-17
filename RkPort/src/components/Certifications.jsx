@@ -5,12 +5,12 @@ const Certifications = () => {
   const certifications = [
     {
       title: "Machine Learning with Python",
-      issuer: "NPTEL - IIT Kharagpur",
+      issuer: "NPTEL",
       date: "2024",
       description: "Comprehensive course covering machine learning algorithms, data preprocessing, model evaluation, and practical applications using Python.",
       skills: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Machine Learning"],
       credential: "NPTEL-2024-ML",
-      link: "https://nptel.ac.in/courses/106106184"
+      link: "https://drive.google.com/file/d/1iX8gsGN5o65CkkT9F97m2sDcpOmZFAep/view?usp=sharing"
     },
     {
       title: "GitHub Foundations",
@@ -19,34 +19,7 @@ const Certifications = () => {
       description: "Professional certification in version control, collaborative development, and GitHub best practices for software development.",
       skills: ["Git", "GitHub", "Version Control", "Collaborative Development", "CI/CD"],
       credential: "GH-FOUNDATIONS-2024",
-      link: "https://github.com/skills"
-    },
-    {
-      title: "Deep Learning Specialization",
-      issuer: "Coursera - DeepLearning.AI",
-      date: "2023",
-      description: "Advanced specialization in deep learning covering neural networks, CNNs, RNNs, and practical applications in computer vision and NLP.",
-      skills: ["Deep Learning", "Neural Networks", "TensorFlow", "Keras", "Computer Vision", "NLP"],
-      credential: "DL-SPEC-2023",
-      link: "https://coursera.org/specializations/deep-learning"
-    },
-    {
-      title: "Data Science with Python",
-      issuer: "IBM",
-      date: "2023",
-      description: "Comprehensive data science course covering data analysis, visualization, statistical modeling, and machine learning with Python.",
-      skills: ["Python", "Data Analysis", "Statistics", "Visualization", "Jupyter", "SQL"],
-      credential: "IBM-DS-2023",
-      link: "https://coursera.org/professional-certificates/ibm-data-science"
-    },
-    {
-      title: "Japanese Language Proficiency",
-      issuer: "JLPT",
-      date: "2024",
-      description: "Japanese Language Proficiency Test N5 certification, demonstrating basic proficiency in Japanese language and culture.",
-      skills: ["Japanese Language", "Hiragana", "Katakana", "Basic Kanji", "Japanese Culture"],
-      credential: "JLPT-N5-2024",
-      link: "https://jlpt.jp"
+      link: "https://drive.google.com/file/d/14yvJ4bKkEQuPOuHZNTWLjdoQwMePeHgJ/view?usp=sharing"
     }
   ];
 
@@ -170,11 +143,11 @@ const Certifications = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">5+</div>
+                <div className="text-3xl font-bold mb-2">2+</div>
                 <div className="text-lg opacity-90">Certifications</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">100+</div>
+                <div className="text-3xl font-bold mb-2">50+</div>
                 <div className="text-lg opacity-90">Hours of Learning</div>
               </div>
               <div className="text-center">

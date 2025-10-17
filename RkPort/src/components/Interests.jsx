@@ -4,12 +4,12 @@ import { FaLanguage, FaChess, FaBook, FaGamepad, FaMusic, FaCamera, FaCode, FaBr
 const Interests = () => {
   const interests = [
     {
-      title: "Japanese Language Learning",
-      description: "Passionate about learning Japanese language and culture. Currently working towards JLPT N4 certification and exploring Japanese literature, anime, and traditional culture.",
-      icon: FaLanguage,
-      color: "from-red-500 to-red-700",
-      activities: ["JLPT N5 Certified", "Duolingo Streak", "Japanese Literature", "Cultural Studies"],
-      level: "Intermediate"
+      title: "Web Development",
+      description: "Passionate about building modern web applications using the latest technologies. Focus on creating responsive, user-friendly interfaces and robust backend systems.",
+      icon: FaCode,
+      color: "from-blue-500 to-blue-700",
+      activities: ["React Development", "Full-Stack Projects", "API Development", "Database Design"],
+      level: "Advanced"
     },
     {
       title: "Competitive Chess",
@@ -54,10 +54,10 @@ const Interests = () => {
   ];
 
   const learningStreaks = [
-    { platform: "Duolingo", streak: "365+", language: "Japanese" },
+    { platform: "GitHub", streak: "Daily", activity: "Code Contributions" },
     { platform: "Chess.com", streak: "Daily", activity: "Chess Practice" },
-    { platform: "GitHub", streak: "Continuous", activity: "Code Contributions" },
-    { platform: "Research", streak: "Weekly", activity: "Paper Reading" }
+    { platform: "Research", streak: "Weekly", activity: "Paper Reading" },
+    { platform: "Online Courses", streak: "Continuous", activity: "Skill Development" }
   ];
 
   const containerVariants = {

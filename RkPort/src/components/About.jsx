@@ -29,9 +29,9 @@ const About = () => {
       description: "Passionate about machine learning, neural networks, and cutting-edge AI technologies"
     },
     {
-      icon: FaLanguage,
-      title: "Japanese Language",
-      description: "Learning Japanese with JLPT N5 certification, exploring Japanese culture and technology"
+      icon: FaCode,
+      title: "Full-Stack Development",
+      description: "Building end-to-end applications with modern technologies and frameworks"
     },
     {
       icon: FaChess,
@@ -72,9 +72,9 @@ const About = () => {
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Beyond academics, I'm deeply fascinated by <span className="font-semibold text-secondary-600">Japanese culture and language</span>, 
-              currently working towards my JLPT N5 certification. This cultural exploration complements my technical pursuits, 
-              as I believe understanding different perspectives enhances problem-solving abilities.
+              Beyond academics, I'm deeply passionate about <span className="font-semibold text-secondary-600">full-stack development and software engineering</span>. 
+              I enjoy building complete applications from frontend to backend, which helps me understand the entire software development lifecycle 
+              and enhances my problem-solving abilities.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -120,7 +120,7 @@ const About = () => {
         >
           {[
             { number: "Top 1%", label: "Chess Ranking" },
-            { number: "JLPT N5", label: "Japanese Level" },
+            { number: "8.66", label: "Current CGPA" },
             { number: "3+", label: "Years Learning" },
             { number: "∞", label: "Curiosity" }
           ].map((stat, index) => (

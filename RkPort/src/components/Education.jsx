@@ -4,28 +4,40 @@ import { FaGraduationCap, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 const Education = () => {
   const educationData = [
     {
-      degree: "B.Tech in Artificial Intelligence & Data Science",
+      degree: "Bachelor of Technology in Artificial Intelligence and Data Science",
       institution: "KL University, Hyderabad",
-      duration: "2022 - 2026",
+      duration: "May 2023 - Present",
       location: "Hyderabad, India",
-      description: "Pursuing comprehensive studies in AI, machine learning, data science, and related technologies. Focus areas include deep learning, neural networks, and practical applications of AI.",
+      description: "Majoring in AI & DS. Current CGPA: 8.66/10.0. Relevant Coursework: Machine Learning, Data Structures, DBMS, Python/Django Development.",
       highlights: [
-        "Core AI & ML algorithms",
-        "Deep Learning frameworks",
-        "Data Science methodologies",
-        "Research projects in NLP"
+        "Machine Learning",
+        "Data Structures",
+        "DBMS",
+        "Python/Django Development"
       ]
     },
     {
-      degree: "Higher Secondary Education",
-      institution: "Local High School",
-      duration: "2020 - 2022",
+      degree: "Class 12 (Senior Secondary)",
+      institution: "State Board, Hyderabad",
+      duration: "June 2021 - March 2023",
       location: "Hyderabad, India",
-      description: "Completed with focus on science and mathematics, laying the foundation for technical studies.",
+      description: "Cumulative GPA: 804/1000. Focused on Mathematics and core sciences.",
       highlights: [
-        "Science stream",
         "Mathematics excellence",
-        "Computer science basics"
+        "Core sciences",
+        "Strong academic foundation"
+      ]
+    },
+    {
+      degree: "Class 10 (High School)",
+      institution: "ST. Little Theresa's High School",
+      duration: "April 2021",
+      location: "Hyderabad, India",
+      description: "GPA: 10.0. Strong foundation in Mathematics and Science.",
+      highlights: [
+        "Mathematics excellence",
+        "Science foundation",
+        "Academic excellence"
       ]
     }
   ];
