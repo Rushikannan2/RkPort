@@ -81,7 +81,7 @@ const Workshops = () => {
           <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Workshops & Training</span>
           </motion.h2>
-          <motion.div variants={itemVariants} className="w-24 h-1 bg-gradient-to-r from-primary-600 to-secondary-600 mx-auto mb-8"></div>
+          <motion.div variants={itemVariants} className="w-24 h-1 bg-gradient-to-r from-primary-600 to-secondary-600 mx-auto mb-8"></motion.div>
           <motion.p variants={itemVariants} className="text-lg text-gray-600 max-w-3xl mx-auto">
             Participated in various workshops and training programs to enhance technical skills and stay updated with industry trends.
           </motion.p>

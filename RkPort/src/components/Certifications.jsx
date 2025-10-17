@@ -78,7 +78,7 @@ const Certifications = () => {
           <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Certifications</span>
           </motion.h2>
-          <motion.div variants={itemVariants} className="w-24 h-1 bg-gradient-to-r from-primary-600 to-secondary-600 mx-auto mb-8"></div>
+          <motion.div variants={itemVariants} className="w-24 h-1 bg-gradient-to-r from-primary-600 to-secondary-600 mx-auto mb-8"></motion.div>
           <motion.p variants={itemVariants} className="text-lg text-gray-600 max-w-3xl mx-auto">
             Professional certifications and courses that demonstrate my commitment to continuous learning and skill development.
           </motion.p>
