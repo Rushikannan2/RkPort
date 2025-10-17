@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGraduationCap, FaBrain, FaLanguage, FaChess } from 'react-icons/fa';
+import { FaGraduationCap, FaBrain, FaCode, FaChess } from 'react-icons/fa';
 
 const About = () => {
   const containerVariants = {
